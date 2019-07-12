@@ -1553,7 +1553,7 @@ function torbutton_update_fingerprinting_prefs() {
 
     m_tb_prefs.setBoolPref("webgl.disable-extensions", mode);
     m_tb_prefs.setBoolPref("dom.network.enabled", !mode);
-    m_tb_prefs.setBoolPref("dom.enable_performance", !mode);
+    //m_tb_prefs.setBoolPref("dom.enable_performance", !mode);
     m_tb_prefs.setBoolPref("plugin.expose_full_path", !mode);
     m_tb_prefs.setBoolPref("browser.zoom.siteSpecific", !mode);
 
